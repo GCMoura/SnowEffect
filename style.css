@@ -9,6 +9,16 @@ body {
     top: -20px;
 }
 
+.time {
+    font-size: 3.5rem;
+    color: #fff;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @keyframes fall {
     to {
         transform: translateY(105vh);

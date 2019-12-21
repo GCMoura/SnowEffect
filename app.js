@@ -21,3 +21,9 @@ function createSnowFlake() {
         snow_flake.remove()
     }, 5000)
 }
+
+const time = document.querySelector('.time')
+
+setInterval(() => {
+    time.innerHTML = ((new Date).toLocaleString().substr(11, 8));
+}, 1000)
